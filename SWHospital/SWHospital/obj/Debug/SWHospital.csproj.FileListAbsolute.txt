@@ -1,0 +1,40 @@
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\bin\Debug\SWHospital.exe.config
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\bin\Debug\SWHospital.exe
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\bin\Debug\SWHospital.pdb
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.csprojResolveAssemblyReference.cache
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.Register.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.Properties.Resources.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.csproj.GenerateResource.Cache
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.exe
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.pdb
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.doctorRegister.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.PatientRegister.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.AdminRegister.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.Doctor.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.book_apt.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.Med_view.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.patient.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.login.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.Admin.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.ManageDoctor.resources
+C:\Users\Laptop Home\Desktop\SWHospital\SWHospital\obj\Debug\SWHospital.ManagePatient.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\bin\Debug\SWHospital.exe.config
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.exe
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.pdb
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\bin\Debug\SWHospital.exe
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\bin\Debug\SWHospital.pdb
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.Admin.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.AdminRegister.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.book_apt.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.Doctor.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.doctorRegister.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.login.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.ManageDoctor.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.ManagePatient.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.Med_view.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.patient.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.PatientRegister.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.Properties.Resources.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.Register.resources
+C:\Users\user\Desktop\SWHospitalSma\SWHospital\SWHospital\obj\Debug\SWHospital.csproj.GenerateResource.Cache
