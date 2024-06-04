@@ -1,0 +1,125 @@
+-- Create Patient table
+CREATE TABLE Patient (
+  Patient_ID INT PRIMARY KEY,
+  Name VARCHAR(255) NOT NULL,
+  Gender VARCHAR(10) NOT NULL,
+  Birthdate DATE NOT NULL,
+  Phone VARCHAR(20) NOT NULL,
+  Password VARCHAR(50) NOT NULL
+);
+
+-- Create Doctor table
+CREATE TABLE Doctor (
+  Doctor_ID INT PRIMARY KEY,
+  Name VARCHAR(255) NOT NULL,
+  Specialty VARCHAR(255) NOT NULL,
+  Phone_number VARCHAR(20) NOT NULL,
+  Email VARCHAR(255) NOT NULL,
+  Gender VARCHAR(10) NOT NULL,
+  Password VARCHAR(50) NOT NULL,
+  Birthdate DATE NOT NULL
+);
+
+-- Create Medical Record table
+CREATE TABLE Medical_Record (
+  Record_ID INT PRIMARY KEY,
+  Patient_ID INT NOT NULL,
+  Doctor_ID INT NOT NULL,
+  Treatment VARCHAR(255) NOT NULL,
+  Date DATE NOT NULL,
+  Diagnosis VARCHAR(255) NOT NULL
+);
+
+
+-- Create Admin table
+CREATE TABLE Admin (
+  Admin_ID INT PRIMARY KEY,
+  Name VARCHAR(255) NOT NULL,
+  Gender VARCHAR(10) NOT NULL,
+  Email VARCHAR(50) NOT NULL,
+  Phone VARCHAR(20) NOT NULL,
+  Password VARCHAR(50) NOT NULL
+);
+
+-- Create New_staff table
+CREATE TABLE New_staff (
+  ID INT PRIMARY KEY,
+  Name VARCHAR(255) NOT NULL,
+  Position VARCHAR(50) NOT NULL
+);
+
+-- Create Medical_inventory table
+CREATE TABLE Medical_inventory (
+  Name VARCHAR(255) NOT NULL,
+  Expiration_Date DATE NOT NULL,
+  Quantity INT NOT NULL
+);
+
+CREATE TABLE Appointments (
+
+    Patient_ID int NOT NULL,
+	Patient_Name VARCHAR(255) NOT NULL,
+    Doctor_ID int NOT NULL,
+    Appointment_Time varchar(20) NOT NULL
+   
+	);
+	INSERT INTO Appointments( Patient_ID, Patient_Name, Doctor_ID,Appointment_Time)
+VALUES
+	(10001, 'Bastweesy Mohamed', '20001', '2023-07-14'),
+	(10002, 'Effat Elsherbiny Niazi', '20002', '20230-08-14'),
+	(10003, 'Bastweesy Mohamed', '20003', '2023-07-16')
+-- Insert data into New_staff table
+INSERT INTO New_staff (ID, Name, Position)
+VALUES
+  (30001, 'Hamada Fathallah', 'Admin'),
+  (30002, 'Fath elbab', 'Doctor'),
+  (30003, 'Shalaby Solofana', 'Doctor'),
+  (30004, 'Mared Washweshni', 'Admin'),
+  (30005, 'Michael jackson', 'Doctor');
+
+-- Insert data into Medical_inventory table
+INSERT INTO Medical_inventory (Name, Expiration_Date, Quantity)
+VALUES 
+  ('Ibuprofen', '2024-06-30', 100), 
+  ('Amoxicillin', '2023-09-15', 50), 
+  ('Aspirin', '2022-12-31', 75), 
+  ('Atorvastatin', '2025-01-31', 30),
+  ('Acetaminophen', '2023-08-31', 200);
+
+-- Insert data into Admin_Info table
+INSERT INTO Admin (Admin_ID, Name, Gender, Email, Phone, Password)
+VALUES 
+
+  (40001, 'Dina Elsherbiny', 'Female', 'Dinaelsherbiny@example.com', '555-123-4567', 'mypassword123'),
+  (40002, 'Gaafer Elomda', 'Male', 'Gaafer_3omda@yahooooo.com', '555-987-6543', 'password123'),
+  (40003 , 'Sarah Ahmed', 'Female', 'sarahahmed@example.com', '555-555-1212', 'password456');
+  
+-- Insert data into Patient table
+INSERT INTO Patient (Patient_ID, Name, Gender, Birthdate, Phone, Password)
+VALUES 
+  (10001, 'Bastweesy Mohamed', 'Male', '2000-07-14', '+1-555-123456',    'loveBJT123'),
+  (10002, 'Effat Elsherbiny Niazi', 'Female', '2003-07-30',  '+1-555-789012',    'pass178'),
+  (10003, 'Zayn Malik', 'Male', '2002-01-01',  '+1-555-345678',    '1directLOVE'),
+  (10004, 'Warda Gunina', 'Female', '2002-05-07',  '+1-555-901234',   'gedoguinena1425'),
+  (10006, 'Reda El Sayed', 'Female', '1990-04-07',  '+1-555-221243',  'Ana7bibtAhmed');
+
+---- Insert data into Doctor table
+INSERT INTO Doctor (Doctor_ID, Name, Specialty, Phone_number, Email, Gender, Password,Birthdate)
+VALUES 
+  (20001, 'Dr. Smith', 'Cardiology', '+1-555-123456', 'john.smith@hospital.com', 'Male', 'smith123','2000-07-14'),
+  (20002, 'Dr. Doe', 'Pediatrics', '+1-555-789012', 'jane.doe@hospital.com', 'Female', 'Doe123','2000-07-14'),
+  (20003, 'Dr. Johnson', 'Oncology', '+1-555-345678', 'alex.johnson@hospital.com', 'Male', 'Johnson123','2000-07-14'),
+  (20004, 'Dr. Lee', 'Physical Therapy', '+1-555-901234', 'sarah.lee@hospital.com', 'Female', 'LEe1234','2000-07-14'),
+  (20005, 'Dr. Moo', 'psychetric ', '+1-555-548624', 'Mona.Moo@hospital.com', 'Female', 'MOOO1234','2000-07-14'),
+  (20006, 'Dr. kate', 'Neurologist ', '+1-555-2119782', 'selina.kate@hospital.com', 'Female', 'Kate123','2000-07-14');
+
+ 
+ -- Insert data into MedicalRecord table
+INSERT INTO Medical_Record (Record_ID, Patient_ID, Doctor_ID, Treatment, Date, Diagnosis)
+VALUES
+(202208, 10001, 20001, 'Prescribed Meds', '2023-07-20', 'Diabetes'),
+(202105, 10002, 20003, 'Rest and fluids', '2022-01-10', 'Migraine headache'),
+(202011, 10003, 20003, 'Prescribed Meds', '2023-03-10', 'High blood pressure'),
+(202301, 10004, 20004, 'Physical Therapy', '2023-05-01', 'Strained Ankle'),
+(202561, 10005, 20005, ' Antidepressant medication ', '2022-08-09', ' Depression '),
+(202901, 10006, 20005, ' Nerve blocks ', '2022-05-07', ' Migraine attack ');
