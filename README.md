@@ -46,18 +46,13 @@ The **Medical Management System** aims to improve healthcare services by providi
 ## Installation
 
 1. Install dependencies:
-   ```
-   npm install
-   ```
 
 2. Set up your database and configure environment variables.
 
 ## Usage
 
 1. Run the application:
-   ```
-   npm start
-   ```
+
 
 2. Access the system via the login page.
    - Enter your credentials (User ID, Position, password).
